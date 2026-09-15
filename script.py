@@ -49,6 +49,10 @@ def iniciarPrograma():
                 print("Opção invalida!")
 
 def cadastrarOpcao():
+    print("""
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃          CADASTRAR NOVA OPÇÃO          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
     opcao = str(input("Digite a opção: "))
 
     if opcao not in opcoes:
@@ -70,6 +74,10 @@ def listarOpcao():
         print(f"{i + 1}. {opcoes[i]}")
 
 def registrarVoto():
+    print("""
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃             REGISTRAR VOTO             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
     if len(opcoes) == 0:
         print("Nenhuma opção registrada.")
 
@@ -89,6 +97,11 @@ def registrarVoto():
         print("Digite apenas números.")
 
 def consultarQuantidadeVoto():
+    print("""
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃     CONSULTAR QUANTIDADE DE VOTOS      ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
+
     if len(opcoes) == 0:
         print("Nenhuma opção registrada.")
 
@@ -96,6 +109,12 @@ def consultarQuantidadeVoto():
         print(f"{i + 1}. {opcoes[i]}")
 
 def mostrarResultado():
+    print("""
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃           MOSTRAR RESULTADO            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
+
+
     if len(opcoes) == 0:
         print("Nenhuma opção registrada.")
 
@@ -116,6 +135,12 @@ def mostrarResultado():
         )
 
 def mostrarOpcaoVencedor():
+    print("""
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃         MOSTRAR OPÇÃO VENCEDOR         ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛""")
+
+
     if len(opcoes) == 0:
         print("Nenhuma opção registrada.")
 
