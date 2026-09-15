@@ -25,34 +25,21 @@ def iniciarPrograma():
                 limpaTerminal()
                 cadastrarOpcao()
 
-                time.sleep(2)
+                time.sleep(5)
             case 2:
                 limpaTerminal()
                 listarOpcao()
 
-                time.sleep(2)
+                time.sleep(5)
             case 3:
-                limpaTerminal()
                 registrarVoto()
-
-                time.sleep(2)
             case 4:
-                limpaTerminal()
                 consultarQuantidadeVoto()
-
-                time.sleep(2)
             case 5:
-                limpaTerminal()
                 mostrarResultado()
-
-                time.sleep(2)
             case 6:
-                limpaTerminal()
                 mostrarOpcaoVencedor()
-
-                time.sleep(2)
             case 7:
-                limpaTerminal()
                 print("""
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃       PROGRAMA DE VOTOS ENCERRADO      ┃

@@ -52,7 +52,6 @@ def iniciarPrograma():
 
                 time.sleep(2)
             case 7:
-                limpaTerminal()
                 print("""
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃       PROGRAMA DE VOTOS ENCERRADO      ┃
